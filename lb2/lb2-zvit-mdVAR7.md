@@ -180,15 +180,14 @@ end
 
 | Параметр | Значення |
 |---|---|
-| `model-version` | [обрана версія] |
-| `initial-number-sheep` | [значення] |
-| `initial-number-wolves` | [значення] |
-| `sheep-gain-from-food` | [значення] |
-| `wolf-gain-from-food` | [значення] |
-| `sheep-reproduce` | [значення] |
-| `wolf-reproduce` | [значення] |
-| `grass-regrowth-time` | [значення; враховується у версії з травою] |
-| Межі світу та замикання його країв | [налаштування світу] |
+| `model-version` | sheep-wovles-grass |
+| `initial-number-sheep` | 100 |
+| `initial-number-wolves` | 50 |
+| `sheep-gain-from-food` | 4 |
+| `wolf-gain-from-food` | 20 |
+| `sheep-reproduce` | 5 |
+| `wolf-reproduce` | 4 |
+| `grass-regrowth-time` | 63 |
 | Тривалість запуску | 300 тактів |
 | Повторень для кожного значення | 3 |
 
@@ -198,7 +197,7 @@ end
 
 | `sheep-vision` | Запуск | Овець на 300-му такті | Вовків на 300-му такті | Примітки: зникнення популяцій або дострокове завершення |
 |---|---|---|---|---|
-| 1 | 1 | [ ] | [ ] | [ ] |
+| 1 | 1 | 61 | 20 | [ні] |
 | 1 | 2 | [ ] | [ ] | [ ] |
 | 1 | 3 | [ ] | [ ] | [ ] |
 | 3 | 1 | [ ] | [ ] | [ ] |
