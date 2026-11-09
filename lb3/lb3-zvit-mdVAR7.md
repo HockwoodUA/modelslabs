@@ -59,7 +59,6 @@ min (list (count sheep) (count wolves))
 
 | Поле | Значення |
 |---|---|
-| Model file | Сумісний з BehaviorSearch файл модифікованої моделі Wolf Sheep Predation |
 | Setup | `setup` |
 | Go | `go` |
 | Measure | `min (list (count sheep) (count wolves))` |
