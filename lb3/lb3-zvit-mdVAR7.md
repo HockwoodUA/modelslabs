@@ -109,7 +109,6 @@ min (list (count sheep) (count wolves))
 | `wolf-reproduce` | 1 |
 | `sheep-vision` | 2 |
 | `grass-regrowth-time` | 60 |
-| Фактична кількість оцінювань | 5 |
 | Час пошуку | 0:06 |
 
 ## Оптимізація генетичним алгоритмом (StandardGA)
@@ -126,7 +125,6 @@ min (list (count sheep) (count wolves))
 | Tournament size | 3 |
 | Population model | `generational` |
 | Crossover rate | 0.7 |
-| Фактична кількість оцінювань | 5 |
 | Найкраще значення функції пристосованості | 33,8 |
 | `sheep-reproduce` | 8 |
 | `wolf-reproduce` | 10 |
