@@ -76,7 +76,7 @@ min (list (count sheep) (count wolves))
 |---|---|
 | Goal | `Maximize Fitness` |
 | Collected measure | `MEAN_ACROSS_STEPS` |
-| Repetitions | 10 |
+| Repetitions | 5 |
 | Агрегування повторів | Середнє арифметичне |
 
 Повторні запуски потрібні для послаблення впливу випадкових переміщень, народжень і загибелі агентів на оцінку параметрів.
