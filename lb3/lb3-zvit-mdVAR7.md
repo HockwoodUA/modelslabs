@@ -102,8 +102,6 @@ min (list (count sheep) (count wolves))
 
 ### Результати RandomSearch
 
-**[ЗАПОВНИТИ ПІСЛЯ ПЕРШОГО ЗАВЕРШЕНОГО ПОШУКУ]**
-
 | Показник | Результат |
 |---|---|
 | Найкраще значення функції пристосованості | 30,32 |
@@ -114,8 +112,6 @@ min (list (count sheep) (count wolves))
 | Фактична кількість оцінювань | 5 |
 | Час пошуку | 0:06 |
 
-![img](sc4.png)
-
 ## Оптимізація генетичним алгоритмом (StandardGA)
 
 Для порівняння буде використано `StandardGA`, який удосконалює популяцію кандидатних рішень за допомогою відбору, схрещування й мутації. Модель, цільова функція, діапазони параметрів і порядок оцінювання залишаються тими самими. Обчислювальний бюджет буде узгоджений із випадковим пошуком за фактичною кількістю оцінювань.
@@ -124,15 +120,23 @@ min (list (count sheep) (count wolves))
 |---|---|
 | Search algorithm | `StandardGA` |
 | Search Encoding Representation | `MixedTypeChromosome` |
-| Параметри алгоритму | — |
-| Фактична кількість оцінювань | — |
-| Найкраще значення функції пристосованості | — |
-| `sheep-reproduce` | — |
-| `wolf-reproduce` | — |
-| `sheep-vision` | — |
-| `grass-regrowth-time` | — |
+| Evaluation limit | 100 |
+| Mutation rate | 0.01 |
+| Population size | 50 |
+| Tournament size | 3 |
+| Population model | `generational` |
+| Crossover rate | 0.7 |
+| Фактична кількість оцінювань | 5 |
+| Найкраще значення функції пристосованості | 33,8 |
+| `sheep-reproduce` | 8 |
+| `wolf-reproduce` | 10 |
+| `sheep-vision` | 3 |
+| `grass-regrowth-time` | 10 |
+| Час пошуку | 0:12 |
 
-**[СКРИНШОТИ: налаштування StandardGA і результати]**
+![img](sc5.png)
+
+![img](sc6.png)
 
 ## Порівняння результатів
 
